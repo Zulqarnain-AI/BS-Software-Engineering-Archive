@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Order</title>
+    <link rel="stylesheet" href="pizza-order.css" />
+  </head>
+  <body>
+    <div class="order-header">
+      <h1>Welcome to Joe's Pizza!</h1>
+      <h3>You order, we deliver.</h3>
+    </div>
+
+    <div class="order-form">
+      <div class="form">
+        <div class="header">
+          <h2>Place your order now!</h2>
+          <p>Please Fill The Form Below.</p>
+        </div>
+        <form id="pizzaOrderForm">
+          <h3>Pizza Order</h3>
+          <fieldset>
+            <legend>Choose Your Pizza</legend>
+            <div class="veg">
+              <span>Vegetarian</span>
+              <label>
+                <input
+                  type="checkbox"
+                  class="pizza-option"
+                  data-price="12"
+                  value="Vegetarian 6-inch"
+                />
+                Vegetarian ($12, 6-inch)
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  class="pizza-option"
+                  data-price="20"
+                  value="Vegetarian 12-inch"
+                />
+                Vegetarian ($20, 12-inch)
+              </label>
+            </div>
+            <div class="veg">
+              <span>Margherita</span>
+              <label>
+                <input
+                  type="checkbox"
+                  class="pizza-option"
+                  data-price="5"
+                  value="Margherita 6-inch"
+                />
+                Margherita ($5, 6-inch)
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  class="pizza-option"
+                  data-price="8"
+                  value="Margherita 12-inch"
+                />
+                Margherita ($8, 12-inch)
+              </label>
+            </div>
+            <div class="veg">
+              <span>Bufala</span>
+
+              <label>
+                <input
+                  type="checkbox"
+                  class="pizza-option"
+                  data-price="16"
+                  value="Bufala 6-inch"
+                />
+                Bufala ($16, 6-inch)
+              </label>
+
+              <label>
+                <input
+                  type="checkbox"
+                  class="pizza-option"
+                  data-price="25"
+                  value="Bufala 12-inch"
+                />
+                Bufala ($25, 12-inch)
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Extra topping?</legend>
+            <div class="toppings">
+              <label>
+                <input
+                  type="checkbox"
+                  class="topping-option"
+                  data-price="6"
+                  value="Mushroom"
+                />
+                Mushroom..........................$6
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  class="topping-option"
+                  data-price="5"
+                  value="Mozzarella Cheese"
+                />
+                Mozzarella Cheese..............$5
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  class="topping-option"
+                  data-price="7"
+                  value="Meat"
+                />
+                Meat...................................+$7
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="delivery-option">
+            <span>Delivery Options:</span>
+            <label>
+              <input type="radio" name="delivery" value="pickup" checked />
+              Pick-Up
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="delivery"
+                value="delivery"
+                data-price="5"
+              />
+              At-Home Delivery (+$5)
+            </label>
+          </div>
+          <div class="total-price">
+            <span>Total Price:</span>
+            <input type="text" id="totalPrice" />
+          </div>
+
+          <div class="contact">
+            <h3>Contact Information:</h3>
+            <div class="grp">
+              <label for="name">Name:</label>
+              <input type="text" id="name" required />
+            </div>
+            <div class="grp">
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" required />
+            </div>
+            <div class="grp">
+              <label for="address">Address:</label>
+              <input type="text" id="address" required />
+            </div>
+          </div>
+        </form>
+        <button class="btn" type="button" id="submitOrder">Place Order</button>
+      </div>
+      <div class="img-con">
+        <div class="img">
+          <img src="download.jpg" alt="pizza" />
+          <p>Pizza made with love.</p>
+        </div>
+        <div class="img">
+          <img src="images3.jpg" alt="pizza2" />
+          <p>Delicious Pizza.</p>
+        </div>
+        <div class="img">
+          <img src="images1.jpg" alt="pizza3" />
+          <p>Delicious Pizza.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="orderSummary" class="hidden">
+      <h2>Order Summary</h2>
+      <p id="customerName"></p>
+      <ul id="pizzaList"></ul>
+      <p id="toppingsList"></p>
+      <p id="totalCost"></p>
+      <p>Thank you for ordering from us!<br> We will be on your way soon.<br><br></p>
+    </div>
+
+    <script src="pizza-order.js"></script>
+  </body>
+</html>

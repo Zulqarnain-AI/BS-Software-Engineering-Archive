@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 50px;
+            width:50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color:rgb(243, 147, 147) " class="box"></div>
+    <div style="background-color:rgb(206, 184, 184) " class="box"></div>
+    <div style="background-color:rgb(54, 11, 11)" class="box"></div>
+    <div style="background-color:rgb(42, 165, 134)  " class="box"></div>
+    <div style="background-color:rgb(104, 92, 209)  " class="box"></div>
+    <script>
+        const box=document.querySelectorAll(".box");
+        box[0].addEventListener("mouseover", myFunctionone);
+        box[1].addEventListener("mouseover", myFunctiontwo);
+        box[2].addEventListener("mouseover", myFunctionthree);
+        box[3].addEventListener("mouseover", myFunctionfour);
+        box[4].addEventListener("mouseover", myFunctionfive);
+        function myFunctionone()
+        {
+            document.querySelectorAll(".box")[0].style.backgroundColor="red";
+        }
+        function myFunctiontwo()
+        {
+            document.querySelectorAll(".box")[1].style.backgroundColor="red";
+        }
+        function myFunctionthree()
+        {
+            document.querySelectorAll(".box")[2].style.backgroundColor="red";
+        }
+        function myFunctionfour()
+        {
+            document.querySelectorAll(".box")[3].style.backgroundColor="red";
+        }
+        function myFunctionfive()
+        {
+            document.querySelectorAll(".box")[4].style.backgroundColor="red";
+        }
+        console.log(box);
+        </script>
+</body>
+</html>

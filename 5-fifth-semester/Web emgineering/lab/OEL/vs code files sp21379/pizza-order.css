@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.order-header{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f73808;
+}
+
+.order-header h1{
+    margin-bottom: 10px;
+}
+
+.order-form{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.form{
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+}
+.header{
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f73808;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+
+}
+.header h2{
+    font-size: 24px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.header p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #f73808;
+}
+.form{
+    width: 100%;
+}
+.form label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#pizzaOrderForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-radius: 5px;
+
+}
+#pizzaOrderForm h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.veg{
+    display: flex;  
+    justify-content: space-around;
+    padding: 4px;
+}
+.veg span{
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.veg label{
+    margin-right: 0 10px;
+}
+.img{
+    width: 350px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.img img{   
+    width: 100%;
+    height: 100%;
+}
+.toppings{
+    padding-left: 20px;
+}
+
+.delivery-option{
+    margin-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.total-price{
+    margin-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    width: 80%;
+}
+.total-price span{
+    margin-left: 20px;
+}
+.total-price input{
+    margin-left: 50px;
+    padding: 2px;
+}
+.contact{
+    margin-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+}
+.grp{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-left: 20px;
+    width: 80%;
+    padding-top: 10px;
+
+}
+.btn{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;
+}

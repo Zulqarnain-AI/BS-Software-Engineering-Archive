@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="one" style="background-color:aqua">button one</button><br><br>
+    <button id="two" style="background-color:rgb(108, 173, 173)">button two</button><br><br>
+    <button id="three" style="background-color:rgb(206, 171, 206)">button three</button>
+    <script>
+        const btn1 = document.querySelector("#one");
+        const btn2 = document.querySelector("#two");
+        const btn3 = document.querySelector("#three");
+btn1.addEventListener("click", FunctionOne);
+btn2.addEventListener("click", FunctionTwo);
+btn3.addEventListener("click", FunctionThree);
+
+function FunctionOne() {
+  document.querySelector("body").style.backgroundColor="red";
+}
+function FunctionTwo() {
+  document.querySelector("body").style.backgroundColor="blue";
+}
+function FunctionThree() {
+  document.querySelector("body").style.backgroundColor="green";
+}
+    </script>
+</body>
+</html>

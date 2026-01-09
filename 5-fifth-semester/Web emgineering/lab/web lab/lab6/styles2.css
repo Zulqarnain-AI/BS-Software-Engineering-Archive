@@ -1,0 +1,50 @@
+/* Colors */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+}
+
+.hsl-color {
+    background-color: hsl(120, 50%, 50%);
+    color: hsla(0, 100%, 50%, 0.8);
+    padding: 20px;
+}
+
+
+/* 2D Transformation */
+.transform-box {
+    transform: rotate(45deg);
+    transition: transform 1s;
+}
+
+.transform-box:hover {
+    transform: scale(1);
+}
+
+
+/* 3D Transformation */
+.box-3d {
+    transform: perspective(500px) rotateX(45deg) rotateY(45deg);
+    transition: transform 1s;
+}
+
+.box-3d:hover {
+    transform: perspective(500px) rotateX(0) rotateY(0);
+}
+
+
+
+/* Transitions */
+.button {
+    background-color: #a8cde6;
+    padding: 10px 20px;
+    transition: background-color 3s ;
+}
+
+.button:hover {
+    background-color: #309423;
+}
+
+
+

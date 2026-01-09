@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="changeColorButton" onclick="changeColor()">change color</button>
+    <p id="textToChange" >Hello world</p>
+    <script>
+        function changeColor(){
+            var text = document.getElementById("textToChange");
+            text.innerText=" Text has been changed";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favorite Sport</title>
+</head>
+<body>
+    <button onclick="favoriteSport()">What’s your favorite sport?</button>
+    <script>
+        function favoriteSport() {
+            let sport = prompt("What is your favorite sport?");
+            
+            if (sport) {
+                switch (sport.trim().toLowerCase()) {
+                    case "soccer":
+                        alert("You’re a team player who loves the thrill of competition.");
+                        break;
+                    case "basketball":
+                        alert("You’re energetic, goal-oriented, and love fast-paced challenges.");
+                        break;
+                    case "tennis":
+                        alert("You value precision, strategy, and personal achievements.");
+                        break;
+                    case "cricket":
+                        alert("You’re patient and appreciate both tradition and strategy.");
+                        break;
+                    case "swimming":
+                        alert("You’re independent, disciplined, and love exploring new depths.");
+                        break;
+                    default:
+                        alert("That’s an interesting choice! You must have a unique personality.");
+                }
+            } else {
+                alert("You didn’t enter any sport!");
+            }
+        }
+    </script>
+</body>
+</html>

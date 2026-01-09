@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="get_number()">click me</button>
+    <script>
+        function get_number(){
+            first=prompt("enter first number");
+            second=prompt("enter second number");
+            if(first===second){
+                document.write("the two numbers are equal");
+            }
+            else if(first<second){
+                alert("the first number is greater then second number");
+            }
+            else{
+                alert("the second number is greater then first number");
+
+            }
+        }
+    </script>
+</body>
+</html>

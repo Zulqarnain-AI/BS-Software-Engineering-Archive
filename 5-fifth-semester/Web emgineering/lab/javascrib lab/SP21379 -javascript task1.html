@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="triggerAlert()">Click here to trigger JS alert</button>
+    <button onclick="showConfirmation()">confirmation</button>
+
+    <script>
+        function triggerAlert() {
+            alert("This is a simple JavaScript alert!" );
+        }
+
+
+    function showConfirmation() {
+    const confirmation = confirm("Your account will be deleted permanently!\n\nAre you sure you want to proceed?");
+    if (confirmation) {
+        alert("Your account has been permanently deleted.");
+        // Add further deletion logic here
+    } else {
+        alert("Action canceled. Your account is safe!");
+    }
+}
+
+
+
+
+    </script>
+</body>
+</html>

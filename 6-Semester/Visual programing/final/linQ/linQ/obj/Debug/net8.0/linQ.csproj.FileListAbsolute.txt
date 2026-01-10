@@ -1,0 +1,14 @@
+D:\university\6-Semester\Visual programing\final\linQ\linQ\bin\Debug\net8.0\linQ.exe
+D:\university\6-Semester\Visual programing\final\linQ\linQ\bin\Debug\net8.0\linQ.deps.json
+D:\university\6-Semester\Visual programing\final\linQ\linQ\bin\Debug\net8.0\linQ.runtimeconfig.json
+D:\university\6-Semester\Visual programing\final\linQ\linQ\bin\Debug\net8.0\linQ.dll
+D:\university\6-Semester\Visual programing\final\linQ\linQ\bin\Debug\net8.0\linQ.pdb
+D:\university\6-Semester\Visual programing\final\linQ\linQ\obj\Debug\net8.0\linQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\6-Semester\Visual programing\final\linQ\linQ\obj\Debug\net8.0\linQ.AssemblyInfoInputs.cache
+D:\university\6-Semester\Visual programing\final\linQ\linQ\obj\Debug\net8.0\linQ.AssemblyInfo.cs
+D:\university\6-Semester\Visual programing\final\linQ\linQ\obj\Debug\net8.0\linQ.csproj.CoreCompileInputs.cache
+D:\university\6-Semester\Visual programing\final\linQ\linQ\obj\Debug\net8.0\linQ.dll
+D:\university\6-Semester\Visual programing\final\linQ\linQ\obj\Debug\net8.0\refint\linQ.dll
+D:\university\6-Semester\Visual programing\final\linQ\linQ\obj\Debug\net8.0\linQ.pdb
+D:\university\6-Semester\Visual programing\final\linQ\linQ\obj\Debug\net8.0\linQ.genruntimeconfig.cache
+D:\university\6-Semester\Visual programing\final\linQ\linQ\obj\Debug\net8.0\ref\linQ.dll

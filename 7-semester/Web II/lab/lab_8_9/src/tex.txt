@@ -1,0 +1,31 @@
+const addStuent = async() => {
+
+    const url = 'https://691c637c3aaeed735c90a3a2.mockapi.io/Students'; // The base endpoint URL
+    const newStudent = {
+      name: 'Sam Smith',
+      Address: 'H-9 Islamabad',
+    };
+
+    await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(newStudent),
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('Successfully added student:', data);
+      })
+      .catch(error => {
+        console.error('Error adding data:', error);
+      });
+  }
+
+
+        <button onClick={addStuent} >add new student</button><br />
